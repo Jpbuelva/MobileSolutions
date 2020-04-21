@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ftp.dll" Version="2.0.20006.1858" />
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Com.MobileSolutions.CrossCutting\Com.MobileSolutions.CrossCutting.csproj" />
+    <ProjectReference Include="..\Com.MobileSolutions.Domain\Com.MobileSolutions.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
